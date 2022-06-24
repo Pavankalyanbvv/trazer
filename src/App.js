@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header';
 import Dashboard from'./components/dashboard';
+import Count from './components/count';
 
 function App() {
   return (
@@ -9,10 +10,11 @@ function App() {
       <div className="container">
         <Dashboard/>
         <div className="others">
-          <speed />
-          <count />
-        </div>
+        <div className='content'>
+        <Count/>
       </div>
+    </div>
+    </div>
     </div>
   );
 }

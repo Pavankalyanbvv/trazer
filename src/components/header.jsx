@@ -10,7 +10,7 @@ export default function Header()
         <div className="rightItems">
         <input type="search"  id="search" placeholder= " search for loaction" height="41.6px" />
         <input type="submit" className="submit" value="search" />
-        <li className="items">home</li>
+        <li className="items active">home</li>
         <li className="items">about</li>
         <li className="items">profile</li>
         </div>

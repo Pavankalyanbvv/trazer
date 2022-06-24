@@ -8,9 +8,9 @@ export default function Dashboard(_){
            <div className="dashboardWrapper">
            <h3 className="dashboardTitle">Dashboard</h3>
            <ul className="dashboardList">
-                <li className="dashboardListItem active"><Looks5OutlinedIcon className="icon"/><a href="/count">count analysis</a></li>
-                <li className="dashboardListItem"><SpeedOutlinedIcon className="icon" />speed analysis</li>
-                <li className="dashboardListItem"><ViewCompactOutlinedIcon className="icon" />congestion level</li>
+           <a href="/count"><li className="dashboardListItem"><Looks5OutlinedIcon className="icon"/>count analysis</li></a>
+           <a href="/speed"><li className="dashboardListItem"><SpeedOutlinedIcon className="icon" />speed analysis</li></a>
+           <a href="/congestion"><li className="dashboardListItem"><ViewCompactOutlinedIcon className="icon" />congestion level</li></a>
             </ul>
 
         </div>

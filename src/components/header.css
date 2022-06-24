@@ -9,14 +9,25 @@
     padding: 10px;
     font-family:'Times New Roman', Times, serif
 }
+.right{
+    background-color: rgb(251, 251, 255);
+}
 .rightItems{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    
 }
 .items{
     padding: 10px;
     border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.items.active,
+.items:hover{
+    background-color: rgb(228, 228, 250);
 }
 #search{
     text-align: center;

@@ -1,0 +1,29 @@
+.header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif
+}
+.rightItems{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    padding: 10px;
+    border: 1px solid black;
+}
+#search{
+    text-align: center;
+    padding: 10px;
+
+}
+.submit{
+    padding: 10px;
+    margin-right: 60px;
+}

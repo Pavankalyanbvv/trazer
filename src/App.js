@@ -5,8 +5,7 @@ import Count from './components/count';
 import Home from './components/home';
 import{BrowserRouter as Router,Routes,Route}from 'react-router-dom'
 import Speed from './components/speed'
-
-
+import Fun from './fun'
 
 
 
@@ -17,8 +16,10 @@ function App() {
       <div className="container">
         <Dashboard/>
         <div className="others">
+        <Fun/>
         <Router>
           <Routes>
+            
             <Route exact path='/' element={<Home/>} />
             <Route exact path='/count' element={<Count/>} />
             <Route path='/count/hourly' element={<Speed/>} />

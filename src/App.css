@@ -5,3 +5,8 @@
     flex:4;
     color: black;
 }
+.App-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
